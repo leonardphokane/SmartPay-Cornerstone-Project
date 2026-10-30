@@ -11,12 +11,15 @@ Developed as a Cornerstone Project demonstrating modern cloud-native application
 ## 🎯 Cornerstone Project Alignment
 
 ### Pathway
+
 Cloud-Native Toolkit / OpenShift
 
 ### Sector
+
 Financial Services (FinTech)
 
 ### Audience Feature
+
 Internal Analytics
 
 ### Problem Statement
@@ -73,11 +76,13 @@ The solution provides:
 
 ```text
 smartpay-africa/
-├── backend/          # Spring Boot API
-├── frontend/         # React dashboard
-├── docs/             # Architecture & project documentation
-├── openshift/        # Kubernetes/OpenShift manifests
-└── images/           # Screenshots and project assets
+├── backend/              # Spring Boot API
+├── frontend/             # React dashboard
+├── docs/                 # Architecture & documentation
+├── openshift/            # OpenShift manifests
+├── images/               # Screenshots and visual assets
+├── presentations/        # PPTX and video demo
+└── README.md
 ```
 
 ---
@@ -199,15 +204,11 @@ http://localhost:3000
 GET /health
 ```
 
-Verifies API availability.
-
 ### Get Transactions
 
 ```http
 GET /transactions
 ```
-
-Returns all stored transactions.
 
 ### Create Transaction
 
@@ -215,13 +216,11 @@ Returns all stored transactions.
 POST /transactions
 ```
 
-Creates a new payment transaction.
-
 ---
 
 ## 📖 API Documentation
 
-Swagger UI is available after starting the backend application.
+Swagger UI is available after starting the backend application:
 
 ```text
 http://localhost:8080/swagger-ui.html
@@ -257,31 +256,7 @@ These resources demonstrate:
 - Route management
 - Cloud-native scaling patterns
 
----
-
-## 📸 Screenshots
-
-### Payment Dashboard
-
-```text
-images/smartpay-ui.jpeg
-```
-
-### Swagger API Documentation
-
-```text
-images/swagger-ui.jpeg
-```
-
-Additional deployment and architecture screenshots are available in the project documentation.
-
----
-
-## 📚 Documentation
-
-The `/docs` directory contains additional project resources:
-
-### Architecture Guide
+-Architecture Guide
 
 ```text
 docs/architecture.md
@@ -296,6 +271,10 @@ Covers:
 
 ### Deployment Guide
 
+```text
+docs/deployment-guide.md
+```
+
 Documents:
 
 - OpenShift setup
@@ -304,6 +283,10 @@ Documents:
 - Scaling strategies
 
 ### Frontend Guide
+
+```text
+docs/frontend-guide.md
+```
 
 Documents:
 
@@ -314,94 +297,88 @@ Documents:
 
 ---
 
-
 ## 🎥 Presentation & Demonstration
 
-To support project evaluation, demonstration, and technical handoff, the complete presentation deck and recorded walkthrough are included with this repository.
+<details>
+<summary><strong>📊 SmartPay Africa Presentation Assets</strong></summary>
 
-### Canva Presentation (Recommended)
+<br>
 
-View the complete SmartPay Africa Cornerstone Project presentation online:
+<table>
+<tr>
 
-https://www.canva.com/design/DAHZe97ulBU/esl7XcCaD7LpoGkn3Ksupw/view
+<td align="center" width="33%">
 
-The presentation covers:
+<h3>🌐 Canva Presentation</h3>
 
-- Problem Statement
-- Sector Alignment (Financial Services / FinTech)
-- Audience Feature (Internal Analytics)
-- Solution Overview
-- Cloud-Native Architecture
-- Technology Stack
-- OpenShift Deployment
-- Application Features
-- API Demonstration
-- Future Enhancements
-- Lessons Learned
+<a href="https://www.canva.com/design/DAHZe97ulBU/esl7XcCaD7LpoGkn3Ksupw/view">View Presentation</a>
 
-### PowerPoint Presentation
+</td>
 
-```text
-SmartPay Africa fintech presentation.pptx
-```
+<td align="center" width="33%">
 
-For offline review, downloading, or presentation delivery.
+<h3>📑 PowerPoint Deck</h3>
 
-### Recorded Video Demonstration
+<code>presentations/SmartPay-Africa-fintech-presentation.pptx</code>
 
-```text
-SmartPay Africa fintech presentation.mp4
-```
+</td>
 
-The recorded demonstration provides a complete walkthrough of:
+<td align="center" width="33%">
 
-1. Project Overview
-2. Repository Structure
-3. Spring Boot Backend
-4. React Frontend Dashboard
-5. PostgreSQL Integration
-6. Transaction Management Features
-7. Swagger API Testing
-8. OpenShift Deployment Resources
-9. Cloud-Native Architecture
-10. Sector and Audience Feature Alignment
-11. Future Roadmap
+<h3>🎬 Video Demonstration</h3>
 
-### Reviewer Quick Access
+<code>presentations/SmartPay-Africa-fintech-presentation.mp4</code>
 
-#### GitHub Repository
+</td>
+
+</tr>
+</table>
+
+</details>
+
+---
+
+## 📸 Project Gallery
+
+<details>
+<summary><strong>🖼️ Screenshots & Product Showcase</strong></summary>
+
+<br>
+
+<p align="center">
+  images/smartpay-africa-ui.png
+</p>
+
+<p align="center">
+<b>SmartPay Africa Dashboard</b><br>
+Modern payment operations platform featuring transaction visibility, account management, analytics dashboards, and operational monitoring capabilities.
+</p>
+
+</details>
+
+---
+
+## 🔗 Reviewer Quick Access
+
+### GitHub Repository
 
 ```text
 https://github.com/leonardphokane/SmartPay-Cornerstone-Project
 ```
 
-#### Online Presentation
+### Online Presentation
 
 ```text
 https://www.canva.com/design/DAHZe97ulBU/esl7XcCaD7LpoGkn3Ksupw/view
 ```
 
-#### Offline Assets
+### Offline Assets
 
 ```text
-SmartPay Africa fintech presentation.pptx
-SmartPay Africa fintech presentation.mp4
+presentations/SmartPay Africa fintech presentation_compressed.pptx
+
+presentations/SmartPay Africa fintech presentation.mp4
 ```
-
-### Submission Assets
-
-```text
-README.md
-backend/
-frontend/
-docs/
-openshift/
-images/
-SmartPay Africa fintech presentation.pptx
-SmartPay Africa fintech presentation.mp4
-```
-
-These assets collectively provide the documentation, architecture, implementation details, deployment resources, presentation materials, and demonstration evidence required for project evaluation.
 
 ---
 
@@ -419,12 +396,12 @@ These assets collectively provide the documentation, architecture, implementatio
 
 ## 🚀 Future Enhancements
 
-- IBM watsonx integration
-- AI-powered fraud detection
-- Predictive transaction analytics
-- Real-time monitoring dashboards
-- Event-driven payment processing
-- CI/CD automation pipelines
+- IBM watsonx Integration
+- AI-Powered Fraud Detection
+- Predictive Transaction Analytics
+- Real-Time Monitoring Dashboards
+- Event-Driven Payment Processing
+- CI/CD Automation Pipelines
 
 ---
 
@@ -435,9 +412,14 @@ These assets collectively provide the documentation, architecture, implementatio
 - React Frontend
 - PostgreSQL Database
 - OpenShift Deployment
-- Documentation
+- Technical Documentation
 - Architecture Design
 - API Documentation
+- Internal Analytics Dashboard
+- Canva Presentation
+- PowerPoint Presentation
+- Recorded Video Demonstration
+- GitHub Repository
 - Demonstration Walkthrough
 
 ---
