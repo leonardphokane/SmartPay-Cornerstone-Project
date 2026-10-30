@@ -312,6 +312,97 @@ Documents:
 
 ---
 
+
+## 🎥 Presentation & Demonstration
+
+To support project evaluation, demonstration, and technical handoff, the complete presentation deck and recorded walkthrough are included with this repository.
+
+### Canva Presentation (Recommended)
+
+View the complete SmartPay Africa Cornerstone Project presentation online:
+
+https://www.canva.com/design/DAHZe97ulBU/esl7XcCaD7LpoGkn3Ksupw/view
+
+The presentation covers:
+
+- Problem Statement
+- Sector Alignment (Financial Services / FinTech)
+- Audience Feature (Internal Analytics)
+- Solution Overview
+- Cloud-Native Architecture
+- Technology Stack
+- OpenShift Deployment
+- Application Features
+- API Demonstration
+- Future Enhancements
+- Lessons Learned
+
+### PowerPoint Presentation
+
+```text
+SmartPay Africa fintech presentation.pptx
+```
+
+For offline review, downloading, or presentation delivery.
+
+### Recorded Video Demonstration
+
+```text
+SmartPay Africa fintech presentation.mp4
+```
+
+The recorded demonstration provides a complete walkthrough of:
+
+1. Project Overview
+2. Repository Structure
+3. Spring Boot Backend
+4. React Frontend Dashboard
+5. PostgreSQL Integration
+6. Transaction Management Features
+7. Swagger API Testing
+8. OpenShift Deployment Resources
+9. Cloud-Native Architecture
+10. Sector and Audience Feature Alignment
+11. Future Roadmap
+
+### Reviewer Quick Access
+
+#### GitHub Repository
+
+```text
+https://github.com/leonardphokane/SmartPay-Cornerstone-Project
+```
+
+#### Online Presentation
+
+```text
+https://www.canva.com/design/DAHZe97ulBU/esl7XcCaD7LpoGkn3Ksupw/view
+```
+
+#### Offline Assets
+
+```text
+SmartPay Africa fintech presentation.pptx
+SmartPay Africa fintech presentation.mp4
+```
+
+### Submission Assets
+
+```text
+README.md
+backend/
+frontend/
+docs/
+openshift/
+images/
+SmartPay Africa fintech presentation.pptx
+SmartPay Africa fintech presentation.mp4
+```
+
+These assets collectively provide the documentation, architecture, implementation details, deployment resources, presentation materials, and demonstration evidence required for project evaluation.
+
+---
+
 ## 🎬 Demo Walkthrough
 
 1. Launch PostgreSQL, Backend, and Frontend services
