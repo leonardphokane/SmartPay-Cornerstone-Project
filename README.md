@@ -1,6 +1,6 @@
 # SmartPay Africa
 
-![SmartPay Africa Designer](Designer.png)
+![SmartPay Africa Designer](images/Designer.png)
 
 Cloud-Native Payment Service built with **Spring Boot**, **React**, **PostgreSQL**, and deployed on **Red Hat OpenShift**.
 
